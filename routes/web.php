@@ -38,3 +38,11 @@ Route::get('/blog', function () {
 Route::get('/industries', function () {
     return view('industries');
 });
+
+Route::get('/Calculate', function () {
+    return view('Calculate');
+});
+
+Route::get('/test', function () {
+    return view('googlemapSample');
+});

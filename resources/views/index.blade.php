@@ -65,6 +65,7 @@
                 <li><a href="industries">Industries</a></li>
                 <li><a href="blog">Blog</a></li>
                 <li><a href="contact">Contact</a></li>
+                <li><a href="Calculate">Calculate</a><li>
               </ul>
             </nav>
           </div>
@@ -305,13 +306,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">ipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="#">Learn More</a></p>
             <div class="unit-4 d-flex">
               <div class="unit-4-icon mr-4"><span class="text-primary flaticon-car"></span></div>
               <div>
                 <h3>Delivery Van</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur ad
               </div>
             </div>
           </div>
