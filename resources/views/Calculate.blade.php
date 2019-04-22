@@ -140,6 +140,15 @@
         </select>     
 </div> 
 
+<div class="container">
+  <img class="img-responsive" src="https://s3-ap-southeast-1.amazonaws.com/appmedia.giztix.com/upload/setting_truck/4-WHEELS-REEFER.png?fbclid=IwAR0Mz5lJ24KmscqkhpX3dcFew6FZh24EtulV2AHrbRzbCixLC5hISIVir7g" alt="car" width="150" height="100">
+  <img class="img-responsive" src="https://s3-ap-southeast-1.amazonaws.com/appmedia.giztix.com/upload/setting_truck/4-WHEELS-STALL.png" alt="car" width="150" height="100">
+  <img class="img-responsive" src="https://s3-ap-southeast-1.amazonaws.com/appmedia.giztix.com/upload/setting_truck/4-WHEELS-CABINET.png" alt="car" width="150" height="100">
+  <img class="img-responsive" src="https://s3-ap-southeast-1.amazonaws.com/appmedia.giztix.com/upload/setting_truck/6WHELL_CABINET.png" alt="car" width="150" height="100">
+  <img class="img-responsive" src="https://s3-ap-southeast-1.amazonaws.com/appmedia.giztix.com/upload/setting_truck/6WHELL_STALL.png" alt="car" width="150" height="100"> 
+</div>
+
+
 <div class="form-group"><label>แรงงานที่ใช้(คน): </label> <input class="form-control" id="man" name="man" required="" type="number" /></div>
 
 <input class="btn btn-primary" type="submit" value="Calculate" /></form>
