@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,10 +23,32 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script  defer src="https://maps.googleapis.com/maps/api/js?libraries=places&language=en&key=AIzaSyBoD51rv8pp0IlMu0LW_0IFqRs1Zipq-3I"  type="text/javascript"></script>
+
+  <style type="text/css">
+            html { height: 100% }
+            body { height: 100%; margin: 0; padding: 0 }
+            #map-canvas { height: 500px; width: 500px}
+        </style>
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoD51rv8pp0IlMu0LW_0IFqRs1Zipq-3I&sensor=SET_TO_TRUE_OR_FALSE"></script>
+        <script type="text/javascript">
+            function initialize() {
+              var mapOptions = {
+                center: new google.maps.LatLng(13.818858, 100.043335),
+                zoom: 12
+              };
+              var map = new google.maps.Map(document.getElementById("map-canvas"),
+                  mapOptions);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
   </head>
   <body>
-  
+
   <div class="site-wrap">
 
     <div class="site-mobile-menu">
@@ -37,12 +59,12 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-    
+
     <header class="site-navbar py-3" role="banner">
 
       <div class="container">
         <div class="row align-items-center">
-          
+
           <div class="col-11 col-xl-2">
             <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Logistics</a></h1>
           </div>
@@ -76,10 +98,10 @@
 
         </div>
       </div>
-      
+
     </header>
 
-  
+
 
     <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">
@@ -91,79 +113,153 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div>
 
-    
-  
     <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/blog_1.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-              <div class="meta mb-4">Theresa Winston <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/blog_2.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-              <div class="meta mb-4">Theresa Winston <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/blog_1.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-              <div class="meta mb-4">Theresa Winston <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/blog_2.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-              <div class="meta mb-4">Theresa Winston <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/blog_1.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-              <div class="meta mb-4">Theresa Winston <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/blog_2.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Warehousing Your Packages</a></h2>
-              <div class="meta mb-4">Theresa Winston <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="container">
+    <div class="row m-2">
+  <div class="jumbotron" id="map-canvas" >
+<h1>Calculate Distance</h1>
+</div>
+<div class="col-md-6 border">
+<form id="distance_form">
+<div class="form-group"><label>Origin: </label> <input class="form-control" id="from_places" placeholder="Enter a location" /> <input id="origin" name="origin" required="" type="hidden" /></div>
 
-    <div class="container text-center pb-5">
-      <div class="row">
-        <div class="col-12">
-          <p class="custom-pagination">
-            <span>1</span>
-            <a href="#">2</a>
-            <a href="#">3</a>
-          </p>
-        </div>
-      </div>
-    </div>
+<div class="form-group"><label>Destination: </label> <input class="form-control" id="to_places" placeholder="Enter a location" /> <input id="destination" name="destination" required="" type="hidden" /></div>
 
-    
-    
+
+
+<div class="form-group">
+        <label for="type_car">ชนิดรถบรรทุก:</label>
+        <select class="form-control" id="type" name="type">
+          <option>กระบะ 4 ล้อหลังคาตู้ทึบ</option>
+          <option>กระบะ 4 ล้อตะแกรงเหล็ก</option>
+          <option>บรรทุก 10 ล้อหลังคาคู้ทึบ</option>
+          <option>บรรทุก 10 ล้อตะแกรงไม้</option>
+          <option>บรรทุก 10 ล้อ+เครื่องควบคุมอุณหภูมิสินค้า</option>
+        </select>     
+</div> 
+
+<div class="form-group"><label>แรงงานที่ใช้(คน): </label> <input class="form-control" id="man" name="man" required="" type="number" /></div>
+
+<input class="btn btn-primary" type="submit" value="Calculate" /></form>
+
+<div id="result">
+<ul class="list-group">
+	<li class="list-group-item d-flex justify-content-between align-items-center">ระยะทาง(ไมล์) :
+        <span class="badge badge-primary badge-pill" id="in_mile">-</span>
+    </li>
+	<li class="list-group-item d-flex justify-content-between align-items-center">ระยะทาง(กิโลเมตร):
+        <span class="badge badge-primary badge-pill" id="in_kilo">-</span>
+    </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">ชนิดรถบรรทุก:
+        <span class="badge badge-primary badge-pill" id="type_cars">-</span>
+    </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">จำนวนแรงงาน(คน):
+        <span class="badge badge-primary badge-pill" id="man_amount">-</span>
+    </li>
+	<li class="list-group-item d-flex justify-content-between align-items-center">IN TEXT:
+        <span class="badge badge-primary badge-pill" id="duration_text">-</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">Price 1Km = 3 Bath:
+        <span class="badge badge-primary badge-pill" id="price">-</span>
+    </li>
+	<li class="list-group-item d-flex justify-content-between align-items-center">IN MINUTES:
+        <span class="badge badge-primary badge-pill" id="duration_value">-</span>
+    </li>
+	<li class="list-group-item d-flex justify-content-between align-items-center">FROM:
+        <span class="badge badge-primary badge-pill" id="from">-</span>
+    </li>
+	<li class="list-group-item d-flex justify-content-between align-items-center">TO:
+        <span class="badge badge-primary badge-pill" id="to">-</span>
+    </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+  </div>
+<script>
+    $(function() {
+        // add input listeners
+        google.maps.event.addDomListener(window, 'load', function () {
+            var from_places = new google.maps.places.Autocomplete(document.getElementById('from_places'));
+            var to_places = new google.maps.places.Autocomplete(document.getElementById('to_places'));
+
+            google.maps.event.addListener(from_places, 'place_changed', function () {
+                var from_place = from_places.getPlace();
+                var from_address = from_place.formatted_address;
+                $('#origin').val(from_address);
+            });
+
+            google.maps.event.addListener(to_places, 'place_changed', function () {
+                var to_place = to_places.getPlace();
+                var to_address = to_place.formatted_address;
+                $('#destination').val(to_address);
+            });
+
+        });
+        // calculate distance
+        function calculateDistance() {
+            var origin = $('#origin').val();
+            var destination = $('#destination').val();
+            var service = new google.maps.DistanceMatrixService();
+            service.getDistanceMatrix(
+                {
+                    origins: [origin],
+                    destinations: [destination],
+                    travelMode: google.maps.TravelMode.DRIVING,
+                    unitSystem: google.maps.UnitSystem.IMPERIAL, // miles and feet.
+                    // unitSystem: google.maps.UnitSystem.metric, // kilometers and meters.
+                    avoidHighways: false,
+                    avoidTolls: false
+                }, callback);
+        }
+        // get distance results
+        function callback(response, status) {
+            if (status != google.maps.DistanceMatrixStatus.OK) {
+                $('#result').html(err);
+            } else {
+                var origin = response.originAddresses[0];
+                var destination = response.destinationAddresses[0];
+                if (response.rows[0].elements[0].status === "ZERO_RESULTS") {
+                    $('#result').html("Better get on a plane. There are no roads between "  + origin + " and " + destination);
+                } else {
+                    var distance = response.rows[0].elements[0].distance;
+                    var duration = response.rows[0].elements[0].duration;
+                    console.log(response.rows[0].elements[0].distance);
+                    var distance_in_kilo = distance.value / 1000; // the kilom
+                    var distance_in_mile = distance.value / 1609.34; // the mile
+                    var type = $('#type').val();
+                    var man = $('#man').val();
+                    var duration_text = duration.text;
+                    var duration_value = duration.value;
+                    var price = (distance.value / 1000) * 3;
+                    $('#in_mile').text(distance_in_mile.toFixed(2)+" Miles");
+                    $('#in_kilo').text(distance_in_kilo.toFixed(2)+" กิโลเมตร");
+                    $('#type_cars').text(type);
+                    $('#man_amount').text(man + " คน");
+                    $('#duration_text').text(duration_text);
+                    $('#duration_value').text(duration_value);
+                    $('#from').text(origin);
+                    $('#to').text(destination);
+                    $('#price').text(price.toFixed(2)+" Bath");
+                }
+            }
+        }
+        // print results on submit the form
+        $('#distance_form').submit(function(e){
+            e.preventDefault();
+            calculateDistance();
+        });
+
+    });
+
+</script>
+
+
+
+
     <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -227,7 +323,7 @@
             </p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </footer>
@@ -246,6 +342,6 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
-    
+
   </body>
 </html>

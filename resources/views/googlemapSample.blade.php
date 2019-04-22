@@ -3,6 +3,25 @@
 	<title></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script  defer src="https://maps.googleapis.com/maps/api/js?libraries=places&language=en&key=AIzaSyBoD51rv8pp0IlMu0LW_0IFqRs1Zipq-3I"  type="text/javascript"></script>
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" id="bootstrap-css" rel="stylesheet" />
+    <style type="text/css">
+            html { height: 100% }
+            body { height: 100%; margin: 0; padding: 0 }
+            #map-canvas { height: 100% }
+        </style>
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoD51rv8pp0IlMu0LW_0IFqRs1Zipq-3I&sensor=SET_TO_TRUE_OR_FALSE"></script>
+        <script type="text/javascript">
+            function initialize() {
+              var mapOptions = {
+                center: new google.maps.LatLng(-34.397, 150.644),
+                zoom: 8
+              };
+              var map = new google.maps.Map(document.getElementById("map-canvas"),
+                  mapOptions);
+            }
+            
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
 </head>
 <body>
 <div class="container">
